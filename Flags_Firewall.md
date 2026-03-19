@@ -43,7 +43,7 @@
 - 4️° Flags de estado da conexão
    Usadas para firewall stateful.
 
-   - -m state — carrega módulo de estado
+   - -m state — carrega módulo de estado (módulo = recurso extra que o firewall vai utilizar).
    - --state NEW — nova conexão
    - --state ESTABLISHED — conexão já existente
    - --state RELATED — conexão relacionada
