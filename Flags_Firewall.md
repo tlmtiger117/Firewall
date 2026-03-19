@@ -60,6 +60,7 @@
    - --update — atualiza contador
    - --seconds — janela de tempo
    - --hitcount — número de tentativas
+   - -m length --lenght <tamanho> - tamanho total do pacote
 
 
 - 6️° Flags de controle de taxa (rate limiting)
