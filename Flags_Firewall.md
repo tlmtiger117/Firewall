@@ -95,6 +95,22 @@
    - --log-ip-options — logar opções IP
    - --log-tcp-options — logar opções TCP
 
+- 10° Flags de rejeição
+   diz ao cliente que o motivo da rejeição da conexão
+
+  - icmp-host-unreachable - Diz que o host não está acessível
+  - icmp-net-unreachable  - Rede inteira inacessível
+  - icmp-port-unreachable - Porta não acessível
+  - icmp-protocol-unreachable - Protocolo não suportado
+  - icmp-admin-prohibited - Bloqueio por política/admin
+  - tcp-reset - avisa o cliente que a conexão foi encerrada imediatamente
+  - resumo:
+    
+     - host/net unreachable → problema de rede
+     - port unreachable → porta fechada
+     - admin prohibited → bloqueio de firewall/política
+     - tcp-reset → encerramento direto de conexão
+
 - Quase toda regra de firewall segue:
    - iptables + ação + chain + filtro + condição + target
  
