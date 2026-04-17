@@ -4,6 +4,7 @@
 - 1° Flags de estrutura da regra (controle da chain)
   Usadas para criar, inserir ou remover regras.
 
+  - sudo netfilter-persistent save - deixa as regras de firewall permanetes após o o pc ser desligado.
   - -A — adiciona uma regra ao final da chain
   - -I — insere regra em uma posição específica
   - -D — remove uma regra
